@@ -1,0 +1,22 @@
+
+
+#paragrafo1{
+    text-align: center; 
+    color: red;
+}
+#paragrafo2{
+    background-color: aquamarine;
+}
+h2{color: rgb(255, 0, 255);}
+
+.class1{
+    text-align: center;
+    color: blue;
+}
+.class2{
+    background-color: aquamarine;
+}
+*{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}

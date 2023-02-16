@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #c7b4b460;
+}
+#titulo1 {
+    color: white;
+    background-color: rgb(139, 12, 12);    
+}
+#titulo2 {
+    color: blue;
+    text-align: right;
+}
+#paragrafo1 {
+    direction: ltr;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+#paragrafo2 {
+    word-spacing: 20px;
+    font-size: 4em;
+    direction: rtl;
+}
+#link1 {
+    text-decoration: overline;
+    text-transform: uppercase;
+}

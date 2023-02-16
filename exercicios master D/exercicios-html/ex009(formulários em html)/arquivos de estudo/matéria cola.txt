@@ -1,0 +1,27 @@
+ name: este atributo dá nome ao elemento. É a forma de definir o sistema com o qual se, por exemplo, o formulário é enviado para outro site, podemos recolher os dados dele recorrendo ao seu nome.
+ id: é uma forma de atribuir-lhe uma identificação (id) única dentro de
+toda a página web através da qual se poderá aceder dinamicamente a
+este objeto e modificar os seus dados, valores ou atributos.
+ value: é o valor do campo. Se o atributo estiver vazio, uma caixa vazia
+será exibida. Ao colocar um valor, esse valor aparecerá na caixa.
+Existem outra série de atributos, não obrigatórios, que podem ser úteis em
+algumas ocasiões:
+ disabled: esta propriedade faz com que o campo esteja desativado. É
+usado, por exemplo, em formulários para forçar o utilizador a inserir
+um campo antes do outro.
+ maxlength: limita o número de caracteres que se podem escrever no
+campo.
+ size: define o comprimento do campo. (Menos usado, pois pode ser definido por estilos CSS).
+ placeholder: especifica um texto padrão na entrada que aparecerá até
+que se comece a escrever.
+ autofocus: define automaticamente o foco da escrita na primeira entrada que possui este atributo.
+ readonly: define um campo de texto como não editável. Apenas as informações exibidas nele podem ser vistas.
+O HTML 5 conta com novos atributos, nomeadamente:
+ max: especifica o valor máximo para um campo de texto.
+ min: especifica o valor mínimo para um campo de texto.
+ pattern: especifica uma expressão regular com a qual se pretende verificar o texto inserido.
+63
+ELEMENTOS HTML
+ required: especifica que o campo deve ser preenchido para o envio do
+formulário.
+ step: especifica o número de intervalos legais para um campo de texto. 
