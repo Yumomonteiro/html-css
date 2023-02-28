@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* todas as outras versões
+celular : 320px-480px
+tablets : 481-768px
+laptops: 769-1024px
+desktops: 1025-1200px
+tv:1200px +
+*/
+
+
+@media print { /* Impressão */
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){ /*TABLETS*/
+
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    
+    
+}
+@media screen and (min-width:992px) and (max-width:1024px){ /* LAPTOPS */
+    
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px){ /* DESKTOPS */
+    
+}
+
+@media  and (min-width:1200px) { /*TVS*/
+    
+}
