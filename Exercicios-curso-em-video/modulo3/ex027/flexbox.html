@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Tutorial</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            background-color: #EEE;
+            border: 2px solid red;
+            padding: 15px;
+            max-width: 300px;
+            height: 300px;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        
+            
+        }
+
+        .child {
+            background-color: #ccc;
+            border: 2px solid blue;
+            height: 50px;
+            width: 50px;
+        }
+
+        .box {
+            background-color: #ccc;
+            border: 2px solid blue;
+            height: 50px;
+            flex-basis: 30px;
+            
+        }
+        
+        #item2 {
+            flex-grow: 5;
+        }
+
+        #item1, #item3 {
+            flex-grow: 1;
+        }
+        
+    </style>
+</head>
+<body>  
+    <div class="container">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">3</div>
+        <div class="child">3</div>
+        <div class="child">3</div>
+        <div class="child">3</div>
+        <div class="child">3</div>
+        <div class="child">3</div>
+        <div class="child">3</div>
+        <div class="child">3</div>
+    </div><!--container-->
+    <div class="container">
+        <div class="box" id="item1">1</div>
+        <div class="box" id="item2">2</div>
+        <div class="box" id="item3">3</div>
+    </div><!--container-->
+    
+    
+</body>
+</html>
