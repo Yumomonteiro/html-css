@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header > h1{
+    margin: auto;
+    background-color: rgb(138, 199, 219);
+    width: 500px;
+    margin-top: 10px;
+    
+    
+}
+
+.header > p{
+    text-align: start;
+    padding: 30px;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    height: 1000px;
+    background-image: url(pexels-henry-&-co-1939485.jpg);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.topleft {
+   
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centro {
+
+}
