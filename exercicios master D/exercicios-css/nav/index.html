@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu-nav</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />    <style>
+
+        *{
+            
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 10px;
+            background-color: #7a6d62;
+        }
+
+        li {
+            display: inline;
+    
+        }
+
+        li > a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+    
+        }
+
+        a:hover {
+            background-color: #ad9c8e;
+        }
+
+        .active {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #edd1b9;
+        }
+
+        #float-right{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+   <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Master D</a> </li>
+        <li><a href="https://fonts.google.com/" target="_blank">Google</a></li>
+        <li><a href="#">W3Schools</a> </li>
+        <li><a href="#">W3C</a></li>
+        <li id="float-right"><a href="#"><i class="material-symbols-outlined">Search</i></li>
+   </ul>
+</body>
+</html>
